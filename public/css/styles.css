@@ -1,0 +1,38 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 20px;
+}
+
+label {
+    font-size: 25px;
+}
+
+textarea {
+    width: 50%;
+    height: 300px;
+    font-size: 20px;
+    margin-top: 1em;
+    overflow: auto;
+    resize: none;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 1em;
+}
+
+button:hover {
+    background-color: #0f0;
+    font-weight: bold;
+}
+
+span {
+    margin-top: 1em;
+    font-size: 20px;
+}
