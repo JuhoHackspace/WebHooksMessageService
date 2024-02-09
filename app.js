@@ -16,7 +16,7 @@ app.post('/sendMessage', (req,res) => {
     if(message === '') {
         res.json('Empty message')
     }else {
-        const URL = 'https://oamk.webhook.office.com/webhookb2/4ff68511-f285-493a-9d79-91d418a54878@386d3ea4-7f15-47e4-9dd7-9f0f28e57746/IncomingWebhook/cfd14ade23cc4b5984c45f0535960e21/65984e6c-17ba-4b24-be86-9761819b0abc'
+        const URL = process.env.url;
         var formatted_Card_Payload = {
             "type": "message",
             "attachments": [
